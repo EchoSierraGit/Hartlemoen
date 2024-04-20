@@ -20,6 +20,7 @@ body {
 
 .header h1 {
     color: #333;
+    animation: fadeInUp 1s ease-in-out;
 }
 
 .content {
@@ -29,4 +30,15 @@ body {
 .content p {
     color: #666;
     font-size: 18px;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
