@@ -357,6 +357,38 @@ background-color: #ff878b;;
     display:  flex;
 }
  }
+
+ @media screen and (max-width: 500px) {
+   
+.LogoCOn{
+    margin-left: 10px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    border:1px solid #89533E;
+    background-color: white;
+    border-radius: 25px;
+    height: 70px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.LogoCOn > img{
+    border-radius: 25px;
+    height: 65px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.LogoTitle{
+    color:#9E3500;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Gotham light'
+}
+
+  }
 /* font-family: 'Freestyle Script';
 font-family: 'Maiandra GD'; */
 
