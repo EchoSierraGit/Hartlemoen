@@ -409,6 +409,13 @@ justify-content: center;
 }
 
   }
+
+  @media screen and (max-width: 380px) {
+   
+    .MobileBtn{
+  display: none;
+    }
+  }
 /* font-family: 'Freestyle Script';
 font-family: 'Maiandra GD'; */
 
