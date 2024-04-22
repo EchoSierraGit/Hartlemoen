@@ -61,6 +61,21 @@ border:1px solid #ff878b5b;;
     background-color: #ff878b;;
     color:white;
 }
+
+@media screen and (max-width: 1080px) {
+    .ServiceCon{
+        flex-direction: column;
+    }
+
+    .ServiceCon a{
+min-width: 90px;
+        height: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 .LogoCOn{
     margin-left: 10px;
     box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
@@ -186,7 +201,162 @@ background-color:#D7A698;
       margin-left: auto;
 }
 
+.MobileSidebar{
+    display: none;
+    position: fixed;
+    height: 300px;
+    right: 0;
+    width: 200px;
+    flex-direction: column;
+    background-color: #FFDBDB;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    
+    align-items: center;
+    padding-right:15px;
+    padding-left: 15px;
+    box-shadow: 4px 4px 5px 4px rgba(0, 0, 0, 0.2);
+    
+    border:1px solid #9E3500;
+    top:5px;
+    right: -240px;
 
+    transition: right 0.5s;
+}
+.MobileSocialIcon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius:10px;
+    padding:5px;
+    }
+    .MobileSocials{
+        margin-top: auto;
+        margin-bottom: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+.MobileBurgerMenu{
+     font-size: 40px;
+     margin-right: 10px;
+color:#89533E;
+box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 7px;
+padding:5px;
+   }
+
+.MobileBurgerMenuClose{
+    font-size: 40px;
+    margin-right: -10px;
+    margin-top: 5px;
+color:#ff878b;
+box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 7px;
+padding:5px;
+align-self: flex-end;
+}
+.MobileBtn{
+    display:  none;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 40px;
+    border-radius: 14px;
+    border:1px solid #9e3500;
+    background-color: #9e3500;
+    color:white;
+  
+    font-size: 18px;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: border 0.1s;
+transition: background-color 0.1s;
+align-items: center;
+justify-content: center;
+}
+.MobileServiceCon{
+    margin-top: 25px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    flex-direction: column;
+}
+.MobileServiceCon a{
+   
+    font-family: 'Gotham';
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    padding:5px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-right: 10px;
+padding-left: 10px;
+transition: color 0.3s;
+transition: background-color 0.3s;
+border:1px solid #ff878b5b;;
+min-width: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #ff878b;;
+    color:white;
+}
+.MobileServiceCon a:hover{
+    background-color: #ff878b;;
+    color:white;
+}
+
+.MobileBurgerMenu{
+    display: none;
+}
+@media screen and (max-width: 950px) {
+    .ServiceCon{
+       display: none;
+    }
+
+  
+}
+@media screen and (max-width: 810px) {
+   .SocialsCon{
+    display: none;
+   }
+.SearchCon{
+    margin: unset;
+
+    margin-right: 10px;
+}
+  
+}
+
+@media screen and (max-width: 650px) {
+   .SearchCon{
+    display: none;
+   }
+   .MobileSidebar{
+    display: flex;
+}
+
+   .MobileBurgerMenu{
+    display: flex;
+   }
+   .MobileBtn{
+    display:  flex;
+}
+ }
 /* font-family: 'Freestyle Script';
 font-family: 'Maiandra GD'; */
 
