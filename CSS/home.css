@@ -1,36 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    overflow-x: hidden; /* Hide the scrollbar */
+    width: 100vw;
+   
 }
 
-.container {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+body::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar in WebKit browsers */
 }
 
-.header {
-    text-align: center;
-    margin-bottom: 20px;
+.NavBar {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(60deg, #D7A698 40%, #FFDBDB 60%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+   padding: 10px;
+   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+ 
+
 }
 
-.header h1 {
-    color: #333;
-    animation: fadeInUp 1s ease-in-out;
+
+.ServiceCon{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+}
+.ServiceCon a{
+    color:#9e3500;
+    font-family: 'Gotham';
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    padding:5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-right: 10px;
+padding-left: 10px;
+transition: color 0.3s;
+transition: background-color 0.3s;
+border:1px solid #ff878b5b;;
+}
+.ServiceCon a:hover{
+    background-color: #ff878b;;
+    color:white;
+}
+.LogoCOn{
+    margin-left: 10px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    border:1px solid #89533E;
+    background-color: white;
+    border-radius: 25px;
+    height: 70px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
 }
 
-.content {
-    text-align: center;
+
+.LogoCOn > img{
+    border-radius: 25px;
+    height: 65px;
+    width: 100px;
+    object-fit: contain;
 }
 
-.content p {
-    color: #666;
+.LogoTitle{
+    color:#9E3500;
+    font-weight: bold;
+    font-size: 34px;
+    font-family: 'Gotham light'
+}
+
+.SocialsCon{
+    margin-right: 10px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    border:1px solid #FF878B;
+display: flex;
+justify-content: space-between;
+gap:10px;
+height: 70px;
+background-color: white;
+align-items: center;
+border-radius: 25px;
+padding-right: 20px;
+padding-left: 20px;
+
+}
+
+svg:hover{
+    fill:#FF878B;
+}
+
+.SocialIcon{
+width: 30px;
+height: 30px;
+cursor: pointer;
+}
+
+
+
+.SearchCon{
+    
+     margin-right: auto;
+     margin-left: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 5px;
+}
+.SearchCon > input{
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 40px;
+    border-radius: 14px;
+    border:1px solid #9e3500;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 5px;
     font-size: 18px;
+    font-family: 'Maiandra GD';
+    color:#9e3500;
 }
+
+.SearchCon button{
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 40px;
+    border-radius: 14px;
+    border:1px solid #9e3500;
+    background-color: #9e3500;
+    color:white;
+  
+    font-size: 18px;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: border 0.1s;
+transition: background-color 0.1s;
+}
+
+.SearchCon button:hover{
+    background-color:#FF878B;
+    border:1px solid #FF878B;
+}
+
+.LoginCon{
+
+}
+
+.ShopLayout{
+    border:none;
+width: 95%;
+border-radius: 7px;
+background-color:#D7A698;
+    height: 550px;
+  margin-right: auto;
+  margin-left: auto;
+   
+}
+.ShopLayoutAlt{
+    border:none;
+    width: 95%;
+    border-radius: 7px;
+    background-color:white;
+        height: 550px;
+      margin-right: auto;
+      margin-left: auto;
+}
+
+
+/* font-family: 'Freestyle Script';
+font-family: 'Maiandra GD'; */
 
 @keyframes fadeInUp {
     from {
