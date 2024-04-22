@@ -367,7 +367,7 @@ background-color: #ff878b;;
     background-color: white;
     border-radius: 25px;
     height: 70px;
-    width: 220px;
+    width: 160px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -376,7 +376,7 @@ background-color: #ff878b;;
 
 .LogoCOn > img{
     border-radius: 25px;
-    height: 65px;
+    height: 55px;
     width: 100px;
     object-fit: contain;
 }
@@ -384,8 +384,28 @@ background-color: #ff878b;;
 .LogoTitle{
     color:#9E3500;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 20px;
     font-family: 'Gotham light'
+}
+
+.MobileBtn{
+   
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 30px;
+    border-radius: 14px;
+    border:1px solid #9e3500;
+    background-color: #9e3500;
+    color:white;
+  
+    font-size: 14px;
+    outline: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: pointer;
+    transition: border 0.1s;
+transition: background-color 0.1s;
+align-items: center;
+justify-content: center;
 }
 
   }
