@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #ffffff;
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +12,8 @@ body {
     gap: 25px;
     overflow-x: hidden; /* Hide the scrollbar */
     width: 100vw;
-   
+    background: linear-gradient(90deg, #D7A698 0%, #ffffff 2%,  #ffffff 50%,  #ffffff 98%, #FFDBDB  100%);
+padding-bottom: 600px;
 }
 
 body::-webkit-scrollbar {
@@ -29,7 +30,8 @@ body::-webkit-scrollbar {
  
    padding: 10px;
    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
- 
+ position: sticky;
+ top: 0px;
 
 }
 
@@ -42,7 +44,7 @@ body::-webkit-scrollbar {
     gap:10px;
 }
 .ServiceCon a{
-    color:#9e3500;
+    color:white;
     font-family: 'Gotham';
     box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
     padding:5px;
@@ -56,10 +58,12 @@ padding-left: 10px;
 transition: color 0.3s;
 transition: background-color 0.3s;
 border:1px solid #ff878b5b;;
+background-color: #ff878b;;
 }
 .ServiceCon a:hover{
-    background-color: #ff878b;;
-    color:white;
+    background-color: unset;
+  
+    color:#9e3500;
 }
 
 @media screen and (max-width: 1080px) {
@@ -157,16 +161,19 @@ gap: 5px;
 
 .SearchCon button{
     box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
-    height: 40px;
+   
     border-radius: 14px;
     border:1px solid #9e3500;
     background-color: #9e3500;
     color:white;
-  
-    font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    padding:10px;;
+    font-size: 24px;
+    height: 40px;
     outline: none;
-    padding-left: 15px;
-    padding-right: 15px;
+  
     cursor: pointer;
     transition: border 0.1s;
 transition: background-color 0.1s;
@@ -206,15 +213,15 @@ background-color:#D7A698;
     position: fixed;
     height: 300px;
     right: 0;
-    width: 200px;
+    width: 130px;
     flex-direction: column;
     background-color: #FFDBDB;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+ 
+    border-radius: 10px;
     
     align-items: center;
     padding-right:15px;
-    padding-left: 15px;
+    padding-left: 25px;
     box-shadow: 4px 4px 5px 4px rgba(0, 0, 0, 0.2);
     
     border:1px solid #9E3500;
@@ -308,7 +315,7 @@ padding-left: 10px;
 transition: color 0.3s;
 transition: background-color 0.3s;
 border:1px solid #ff878b5b;;
-min-width: 150px;
+min-width: 100px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -429,3 +436,267 @@ font-family: 'Maiandra GD'; */
         transform: translateY(0);
     }
 }
+
+
+.LogoTitle{
+
+font-family: 'Adeline';
+
+}
+
+
+
+.WelcomeCon{
+
+    border-bottom:2px solid #9e350050;
+    width: 100%;
+    height: fit-content;
+    border-radius: 3px;
+min-height: 300px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.WelcomeMessage{
+
+    width: fit-content;
+    height: fit-content;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.WeclomeTitle{
+color:#9e3500;
+font-weight: bold;
+font-family: 'Adeline';
+font-size: 150px;
+}
+
+.WelcomeSubTitle{
+color:#FF878B;
+font-size: 50px;
+font-family: 'Maiandra GD'
+}
+
+@media screen and (max-width: 1360px) {
+   
+    .WeclomeTitle{
+     
+        font-size: 100px;
+        }
+        
+        .WelcomeSubTitle{
+    
+        font-size: 30px;
+    
+        }
+  
+}
+@media screen and (max-width: 1010px) {
+   
+    .WeclomeTitle{
+     
+        font-size: 80px; 
+        }
+        
+        .WelcomeSubTitle{
+    
+        font-size: 22px;
+    
+        }
+  
+}
+@media screen and (max-width: 700px) {
+   
+    .WeclomeTitle{
+     
+        font-size: 60px;
+        }
+        
+       
+        .WelcomeSubTitle{
+    
+            font-size: 20px;
+        
+            }
+  
+}@media screen and (max-width: 600px) {
+   
+    .WeclomeTitle{
+     
+        font-size: 30px;
+        }
+        
+       
+        .WelcomeSubTitle{
+    
+            font-size: 20px;
+        
+            }
+  
+}
+.GalleryCon {
+    width: 100%;
+    height: 350px;
+  max-width: 100%;
+    overflow: hidden; /* Ensure content is clipped */
+
+    display: flex;
+    justify-content: flex-end;
+    gap:30px;
+}
+
+
+
+.GalleryItem {
+  
+    max-width:350px;
+    min-width:350px;
+    height: 170px; 
+  
+border:1px solid   #9e3500;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.LeafCon{
+    position: absolute;
+    top:50%;
+    
+}
+.LeafConInverse{
+    position: absolute;
+    top:50%;
+   
+   
+    transform: scaleY(-1)  translateY(-35px);
+
+}
+
+.LeafV1 {
+    position: absolute;
+    margin-left: 0px;
+    transform: translate(-50%, -50%) rotate(-45deg); /* Center the leaf and rotate it */
+    width: 50px;
+    height: 14px;
+    background-color: #89533E; /* Change color to green to resemble a leaf */
+    border-radius: 50%; /* Make it round */
+    border: 2px solid #724634; /* Add a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    overflow: hidden; /* Hide overflowing pseudo-element */
+    margin-top: auto;
+    
+}
+
+.LeafV2 {
+    position: absolute;
+    margin-left: 70px;
+    transform: translate(-50%, -50%) rotate(-35deg); /* Center the leaf and rotate it */
+    width: 25px;
+
+    height: 7px;
+    background-color: #89533E; /* Change color to green to resemble a leaf */
+    border-radius: 50%; /* Make it round */
+    border: 2px solid #724634; /* Add a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    overflow: hidden; /* Hide overflowing pseudo-element */
+    margin-top: 6px;
+    
+}
+
+.LeafV3 {
+    position: absolute;
+    margin-left: 27px;
+    transform: translate(-50%, -50%) rotate(-45deg); /* Center the leaf and rotate it */
+    width: 40px;
+    height: 12px;
+    background-color: #89533E; /* Change color to green to resemble a leaf */
+    border-radius: 50%; /* Make it round */
+    border: 2px solid #724634; /* Add a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    overflow: hidden; /* Hide overflowing pseudo-element */
+    overflow: hidden; /* Hide overflowing pseudo-element */
+    margin-top: 2px;
+}
+
+
+.LeafV4 {
+    position: absolute;
+    margin-left: 51px;
+    transform: translate(-50%, -50%) rotate(-45deg); /* Center the leaf and rotate it */
+    width: 33px;
+    height: 11px;
+    background-color: #89533E; /* Change color to green to resemble a leaf */
+    border-radius: 50%; /* Make it round */
+    border: 2px solid #724634; /* Add a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    overflow: hidden; /* Hide overflowing pseudo-element */
+    margin-top: 3px;
+}
+
+.branch{
+    position: fixed;
+   
+   
+}
+.Stem{
+    position: absolute;
+   margin-top: 15px;
+ margin-left: -34px;
+    width: 108px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #89533E; /* Change color to green to resemble a leaf */
+   
+}
+
+@media screen and (max-width: 500px) {
+   
+    .branch{
+        scale: 0.75;
+       
+    }
+    
+      }

@@ -1,7 +1,7 @@
 function MoveSidebar(){
     var e = document.getElementById('Sidebar');
 
-    e.style.right = '0px';
+    e.style.right = '13px';
 }
 
 function CloseSidebar(){
@@ -9,3 +9,10 @@ function CloseSidebar(){
 
     e.style.right = '-240px';
 }
+
+
+window.onload = function() {
+ 
+
+    
+};
