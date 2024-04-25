@@ -10,9 +10,3 @@ function CloseSidebar(){
     e.style.right = '-240px';
 }
 
-
-window.onload = function() {
- 
-
-    
-};
