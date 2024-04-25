@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+html{
+    overflow-x: hidden; 
+}
 
 body {
   
@@ -10,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 25px;
-    overflow-x: hidden; /* Hide the scrollbar */
+    overflow-x: hidden; 
     width: 100vw;
     background: linear-gradient(90deg, #D7A698 0%, #ffffff 2%,  #ffffff 50%,  #ffffff 98%, #FFDBDB  100%);
 padding-bottom: 600px;
