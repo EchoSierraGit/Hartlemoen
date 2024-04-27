@@ -608,7 +608,9 @@ font-family: 'Maiandra GD'
             font-size: 20px;
         
             }
-  
+  .WelcomeCon{
+    min-height: 150px;
+  }
 }
 
 
