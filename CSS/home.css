@@ -36,7 +36,7 @@ body::-webkit-scrollbar {
    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
  position: fixed;
  top: 0px;
-
+z-index: 100;
 }
 
 
@@ -442,6 +442,70 @@ font-family: 'Maiandra GD'; */
 }
 
 
+.BrowseGallery {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+   
+    overflow-x: auto; /* Use 'auto' instead of 'scroll' */
+    
+    user-select: none;
+    margin-top: -40px;
+  
+    padding-bottom: 0px;
+
+
+    border-bottom:2px solid #9e350050;
+}
+.BrowseGallery::-webkit-scrollbar {
+    width: 10px; 
+ 
+}
+
+.BrowseGallery::-webkit-scrollbar-track {
+    background-color: #FFDBDB;
+    
+
+}
+
+.BrowseGallery::-webkit-scrollbar-thumb {
+    background-color: #D7A698;;
+   
+    border-radius: 5px; 
+}
+
+.BrowseGallery::-webkit-scrollbar-thumb:hover {
+    background-color: #D7A698; 
+
+}
+
+
+
+.GalleryItem{
+    width: 245px;
+    height: 100px;
+    border-radius: 25px;
+    background-color: white;
+min-width: 245px;
+margin-left: 25px;
+margin-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #9e350050;
+    font-size: 32px;
+    color:#9e3500;;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.GalleryItem:hover{
+    background-color: #FFDBDB;
+}
+
+
 .LogoTitle{
 
 font-family: 'Adeline';
@@ -480,7 +544,7 @@ min-height: 300px;
 color:#9e3500;
 font-weight: bold;
 font-family: 'Adeline';
-font-size: 150px;
+font-size: 120px;
 }
 
 .WelcomeSubTitle{
@@ -661,7 +725,7 @@ font-family: 'Maiandra GD'
 .branch{
     position: fixed;
    
-   
+    z-index: 100;
 }
 .Stem{
     position: absolute;
