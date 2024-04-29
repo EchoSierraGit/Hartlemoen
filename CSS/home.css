@@ -510,6 +510,18 @@ font-family: 'Adeline';
 
 }
 
+.AboutUsSection{
+    display: flex;
+    flex-direction: column;
+   gap: 15px;
+   margin-left: 10%;
+margin-right: 10%;
+   color:#9e3500;;
+}
+
+p{
+    font-family: 'Maiandra GD'
+}
 
 
 .WelcomeCon{
@@ -577,6 +589,14 @@ font-family: 'Maiandra GD'
         font-size: 22px;
     
         }
+        .AboutUsSection{
+            display: flex;
+            flex-direction: column;
+           gap: 15px;
+           margin-left: 15%;
+        margin-right: 15%;
+           color:#9e3500;;
+        }
   
 }
 @media screen and (max-width: 700px) {
@@ -609,6 +629,8 @@ font-family: 'Maiandra GD'
   .WelcomeCon{
     min-height: 150px;
   }
+
+ 
 }
 
 
