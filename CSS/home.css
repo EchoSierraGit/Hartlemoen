@@ -517,13 +517,116 @@ font-family: 'Adeline';
    margin-left: 10%;
 margin-right: 10%;
    color:#9e3500;;
+   width: 80%;
+ 
+   padding-bottom: 15px;
+
+
+}
+
+.StickersSection{
+    display: flex;
+    flex-direction: column;
+   gap: 15px;
+   margin-left: 10%;
+margin-right: 10%;
+   color:#9e3500;;
+   width: 80%;
+   padding-bottom: 15px;
+   height: fit-content;
+   min-height: 400px;
+   align-items: center;
+
+}
+
+.Shoptitle{
+    width: fit-content;
+    font-size: 72px;
+    font-weight: bold;
+display: flex;
+justify-content: center;
+    margin-top: 50px;
+border-bottom: 1px solid #9e350050;
+
+}
+
+.ShopCon{
+    margin-top: 50px;
+width: 100%;
+height: fit-content;
+padding: 10px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 40px;
+
+}
+
+.Package{
+
+  height: fit-content;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:15px;
+
+}
+
+.PackageBanner{
+background-color: #FFDBDB;
+width: fit-content;
+height: fit-content;
+padding:10px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 32px;
+font-weight: bold;
+border-radius: 17px;
+color:black
+}
+.PckgeContent{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap:10px;
+font-size: 22px;
+color:black;
+font-family: 'Maiandra GD';
+position: relative;
+}
+
+.Price{
+position: absolute;
+left: -25px;
+transform: translateX(-75%);
+top: 60%;
+font-size: 62px;
+font-family: 'Maiandra GD';
+font-family: 'Freestyle Script';
+}
+
+.PckgeImage{
+height: 300px;
+width: 100%;
+}
+
+.PckgeImage img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
 }
 
 p{
     font-family: 'Maiandra GD'
 }
 
-
+hr{
+    width: 100%;
+    border-color: #9e350050;
+}
 .WelcomeCon{
 
     border-bottom:2px solid #9e350050;
