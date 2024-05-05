@@ -39,6 +39,10 @@ body::-webkit-scrollbar {
 z-index: 100;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 .ServiceCon{
     margin-right: 10px;
