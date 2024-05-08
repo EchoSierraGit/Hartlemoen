@@ -978,6 +978,17 @@ width: 110px;
     font-size: 14px;
     font-weight: bold;
 }
+@media screen and (max-width: 500px) {
+   
+    .contact{
+        position: absolute;
+        bottom: 15px;
+        right: 5px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    
+      }
       .OrderNowLink    .LinkSVG{
         height: 25px;
         width: 25px;
