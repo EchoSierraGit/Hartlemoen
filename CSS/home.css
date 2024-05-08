@@ -19,10 +19,28 @@ body {
 
 padding-top: 80px;
 }
-
 body::-webkit-scrollbar {
-    display: none; /* Hide the scrollbar in WebKit browsers */
+    width: 10px; 
+ 
 }
+
+body::-webkit-scrollbar-track {
+    background-color: #FFDBDB;
+    
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #D7A698;;
+   
+    border-radius: 5px; 
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #D7A698; 
+
+}
+
 
 .NavBar {
     width: 100%;
@@ -563,6 +581,7 @@ display: grid;
 grid-template-columns: repeat(3, minmax(250px, 1fr));
 gap: 40px;
 
+
 }
 
 .Package{
@@ -615,12 +634,17 @@ font-family: 'Freestyle Script';
 .PckgeImage{
 height: 300px;
 width: 100%;
+display: flex;
+align-items: flex-start;
+justify-content: center;
 }
 
 .PckgeImage img{
     object-fit: contain;
-    width: 100%;
-    height: 100%;
+   max-width: 100%;
+   max-height: 300px;
+   height: fit-content;
+  width: fit-content;
 }
 
 p{
@@ -885,4 +909,87 @@ font-family: 'Maiandra GD'
        
     }
     
+      }
+
+
+.OrderSection{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+      .OrderLink{
+        display: flex;
+        align-items: center;
+        text-decoration: none !important;
+        color:#9e3500;
+        background-color: #FFDBDB;
+        border-radius: 25px;
+        padding:8px;
+        border:1px solid #FFDBDB;
+gap:5px;
+width: 200px;
+
+      }
+
+      .Shoptitle{
+        color:#9e3500;
+      }
+
+      .OrderLink:hover{
+        color:#FF878B;
+        background-color: white;
+        border:1px solid #FF878B;
+      }
+
+      .OrderLink:hover svg{
+        fill:#FF878B;
+      }
+
+      .LinkSVG{
+        height: 45px;
+        width: 45px;
+      }
+
+      .OrderNowLink{
+        display: flex;
+        align-items: center;
+        text-decoration: none !important;
+        color:#9e3500;
+        background-color: #FFDBDB;
+        border-radius: 25px;
+        padding:8px;
+        border:1px solid #FFDBDB;
+gap:5px;
+width: 110px;
+
+      }
+
+      .OrderNowLink    .LinkSVG{
+        height: 25px;
+        width: 25px;
+      }
+
+      .OrderNowLink:hover{
+        color:#FF878B;
+        background-color: white;
+        border:1px solid #FF878B;
+      }
+
+      .OrderNowLink:hover svg{
+        fill:#FF878B;
+      }
+
+
+      .OrderNowDiv{
+        display: flex;
+        gap:5px;
+        font-weight: bold;
+      }
+    
+
+      .LargeBibGallery{
+        display: flex;
       }

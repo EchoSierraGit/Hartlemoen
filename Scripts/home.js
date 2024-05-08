@@ -32,3 +32,34 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.getElementById('searchInput');
+
+    // Function to scroll to a specific element
+    function scrollToElement(element) {
+        window.scrollTo({
+            behavior: 'smooth',
+            top: element.offsetTop - 200
+        });
+        console.log("aaaa");
+    }
+
+    // Function to handle search input
+    function handleSearch() {
+        const searchTerm = searchInput.value.trim().toLowerCase();
+        console.log("Search term:", searchTerm);
+        const elements = document.body.querySelectorAll('*');
+
+        elements.forEach(element => {
+            if (element.textContent.toLowerCase().includes(searchTerm)) {
+                console.log("Found:", element.textContent.trim());
+                scrollToElement(element.parentElement);
+                return;
+            }
+        });
+    }
+
+    // Event listener for input events
+    searchInput.addEventListener('keyup', handleSearch);
+});
