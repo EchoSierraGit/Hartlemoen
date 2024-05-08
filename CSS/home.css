@@ -921,8 +921,9 @@ font-family: 'Maiandra GD'
     padding-bottom: 50px;
 }
       .OrderLink{
+        position: relative;
         display: flex;
-        align-items: center;
+      
         text-decoration: none !important;
         color:#9e3500;
         background-color: #FFDBDB;
@@ -930,7 +931,9 @@ font-family: 'Maiandra GD'
         padding:8px;
         border:1px solid #FFDBDB;
 gap:5px;
-width: 200px;
+
+min-width: 200px;
+width: fit-content;
 
       }
 
@@ -951,6 +954,8 @@ width: 200px;
       .LinkSVG{
         height: 45px;
         width: 45px;
+        display: flex;
+        align-items: center;
       }
 
       .OrderNowLink{
@@ -966,7 +971,13 @@ gap:5px;
 width: 110px;
 
       }
-
+.contact{
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
       .OrderNowLink    .LinkSVG{
         height: 25px;
         width: 25px;
