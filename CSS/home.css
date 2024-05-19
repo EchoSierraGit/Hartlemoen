@@ -992,7 +992,9 @@ white-space: nowrap;
         font-size: 14px;
         padding: 10px;
     }
-    
+    .GalleryItem{
+        font-size: 21px;
+    }
 .PackageBanner{
     font-size: 22px;
 }
