@@ -181,7 +181,7 @@ gap: 5px;
     padding-left: 10px;
     padding-right: 5px;
     font-size: 18px;
-    font-family: 'Maiandra GD';
+    font-family: 'Lato';
     color:#9e3500;
 }
 
@@ -621,7 +621,7 @@ align-items: center;
 gap:10px;
 font-size: 22px;
 color:black;
-font-family: 'Maiandra GD';
+font-family: 'Lato';
 position: relative;
 min-height: 150px;
 }
@@ -629,11 +629,11 @@ min-height: 150px;
 .Price{
 position: absolute;
 left: -25px;
-transform: translateX(-75%);
+transform: translateX(-100%);
 
-font-size: 52px;
-font-family: 'Maiandra GD';
-font-family: 'Freestyle Script';
+font-size: 42px;
+font-weight: bold;
+font-family: 'Dancing Script';
 }
 
 .PckgeImage{
@@ -654,7 +654,7 @@ justify-content: center;
 }
 
 p{
-    font-family: 'Maiandra GD'
+    font-family: 'Lato';
 }
 
 hr{
@@ -697,7 +697,7 @@ font-size: 120px;
 .WelcomeSubTitle{
 color:#FF878B;
 font-size: 50px;
-font-family: 'Maiandra GD'
+font-family: 'Lato';
 }
 
 @media screen and (max-width: 1360px) {
