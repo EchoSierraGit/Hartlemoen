@@ -988,6 +988,7 @@ white-space: nowrap;
 
     .PckgeContent{
         max-width: 250px;
+        min-height: 50px;
         font-size: 18px;;
     }
     
