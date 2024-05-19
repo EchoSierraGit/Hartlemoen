@@ -987,9 +987,10 @@ white-space: nowrap;
     }
 
     .PckgeContent{
-        max-width: 250px;
+        max-width: 200px;
         min-height: 50px;
-        font-size: 18px;;
+        font-size: 14px;
+        padding: 10px;
     }
     
 .PackageBanner{
@@ -1001,7 +1002,13 @@ white-space: nowrap;
 }
 
 .Price{
-    font-size: 45px;
+    font-size: 30px;
+    left: 5px;
+}
+
+.OrderNowLink{
+    font-size: 14px;
+    height: 20px !important;
 }
 
       }
