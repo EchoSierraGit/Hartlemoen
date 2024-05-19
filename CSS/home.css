@@ -637,7 +637,8 @@ font-family: 'Freestyle Script';
 }
 
 .PckgeImage{
-height: 300px;
+    height: fit-content;
+    max-height: 300px;
 width: 100%;
 display: flex;
 align-items: flex-start;
@@ -965,8 +966,8 @@ width: fit-content;
         padding:8px;
         border:1px solid #FFDBDB;
 gap:5px;
-width: 110px;
-
+width: fit-content;
+white-space: nowrap;
       }
 .contact{
     position: absolute;
