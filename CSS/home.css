@@ -596,7 +596,7 @@ gap: 100px;
   justify-content: center;
   flex-direction: column;
   gap:15px;
-
+  max-width: 400px;
 
 }
 
@@ -623,6 +623,7 @@ font-size: 22px;
 color:black;
 font-family: 'Maiandra GD';
 position: relative;
+min-height: 150px;
 }
 
 .Price{
@@ -743,23 +744,15 @@ font-family: 'Maiandra GD'
         .Shoptitle{
             font-size: 40px;
         }
-        .ShopCon{
-            margin-top: 50px;
-        width: 100%;
-        height: fit-content;
-        padding: 10px;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 40px;
-        
-        }
+       
         .WelcomeSubTitle{
     
             font-size: 20px;
         
             }
   
-}@media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 600px) {
    
     .WeclomeTitle{
      
@@ -990,6 +983,11 @@ width: 110px;
         right: 5px;
         font-size: 10px;
         font-weight: bold;
+    }
+
+    .PckgeContent{
+        max-width: 250px;
+        font-size: 18px;;
     }
     
 .PackageBanner{
