@@ -1002,7 +1002,10 @@ white-space: nowrap;
 .Shoptitle{
     font-size: 27px;
 }
-
+.ShopCon{
+    margin-top: 10px;
+    gap:50px;
+}
 .Price{
     font-size: 30px;
     left: -5px;
